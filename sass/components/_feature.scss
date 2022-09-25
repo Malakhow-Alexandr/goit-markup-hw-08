@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .feature {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -66,50 +66,3 @@
   font-size: 14px;
   line-height: 1.7;
 }
-=======
-.feature {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-.feature__container{
-    @extend %container;
-}
-.feature__icons {
-    @extend %list;
-    display: flex;
-    gap:30px;
-}
-
-.feature__icons-item {
-    display: flex;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    width: 270px;
-    height: 120px;
-    align-items: center;
-    justify-content: center;
-    background-color: $staff-bg-color;
-}
-.feature__title {
-    @extend %visually-hidden;
-}
-.feature-meta-list {
-    @extend %list;
-    display: flex;
-    gap: 30px;
-}
-.feature-meta-list__title {
-    @extend %list-title;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-}
-
-.feature-meta-list__text {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 14px;
-    line-height: 1.7;
-}
->>>>>>> fb5653a2fba59a35c925db884d7bf2b81a2ffacf

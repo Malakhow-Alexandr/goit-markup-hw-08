@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .footer-form__title {
   font-weight: 700;
   font-size: 14px;
@@ -11,11 +11,16 @@
 .footer-form__group {
   margin-top: 20px;
   position: relative;
+  @media screen and (min-width:1200px) {
+    display: flex;
+    
+  }
+  
 }
 
 .footer-form__lable {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 16px;
   transform: translateY(-50%);
   font-weight: 400;
@@ -23,20 +28,34 @@
   line-height: 1.25;
   color: $adress-text-color;
   transition: transform 250ms $timing-function;
+  .footer-form__input:focus + &,
+  .footer-form__input:not(:placeholder-shown) + & {
+    transform: translateY(-235%);
+  }
+  @media screen and (min-width:1200px){
+    top: 50%;
+    
+  }
 }
 
 .footer-form__input {
+  
   border: 1px solid $border-footer-form-color;
   border-radius: 4px;
-  width: 358px;
-  margin-right: 12px;
+  width: 450px;
   padding: 15px 16px;
   background-color: transparent;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: $primary-white-color;
-  &:focus + .footer-form__lable,
-  &:not(:placeholder-shown) + .footer-form__lable {
-    transform: translateY(-235%);
+  
+ 
+  @media screen and (max-width:1199px){
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width:1200px){
+    width: 358px;
+    margin-right: 12px;
   }
 }
 
@@ -64,87 +83,10 @@
     background-color: $primary-bg-color;
     color: $title-text-color;
   }
-}
-
-.footer-button__icon {
-  margin-left: 10px;
-  fill: $primary-white-color;
-  transition: fill 250ms $timing-function;
-  .footer-button:hover &,
-  .footer-button:focus & {
-    fill: $title-text-color;
-  }
-}
-=======
-.footer-form {
-  margin-left: auto;
-}
-
-.footer-form__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: $primary-white-color;
-}
-
-.footer-form__group {
-  margin-top: 20px;
-  display: flex;
-  position: relative;
-}
-
-.footer-form__lable {
-  position: absolute;
-  top: 50%;
-  left: 16px;
-  transform: translateY(-50%);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  color: $adress-text-color;
-  transition: transform 250ms $timing-function;
-}
-
-.footer-form__input {
-  border: 1px solid $border-footer-form-color;
-  border-radius: 4px;
-  width: 358px;
-  margin-right: 12px;
-  padding: 15px 16px;
-  background-color: transparent;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  color: $primary-white-color;
-  &:focus + .footer-form__lable,
-  &:not(:placeholder-shown) + .footer-form__lable {
-    transform: translateY(-235%);
-  }
-}
-
-.footer-button {
-  display: flex;
-  border-radius: 4px;
-  width: 200px;
-  padding: 10px 28px;
-  color: $primary-white-color;
-  background-color: $button-bg-color;
-  border: 1px solid transparent;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  box-shadow: $button-modal-shadow;
-  transition: background-color 250ms $timing-function,
-    color 250ms $timing-function;
-  &:hover,
-  &:focus {
-    background-color: $primary-bg-color;
-    color: $title-text-color;
+  @media screen and (max-width:1199px) {
+    margin-left: auto;
+    margin-right: auto;
+    
   }
 }
 
@@ -157,4 +99,3 @@
     fill: $title-text-color;
   }
 }
->>>>>>> fb5653a2fba59a35c925db884d7bf2b81a2ffacf
