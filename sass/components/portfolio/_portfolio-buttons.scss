@@ -1,0 +1,26 @@
+.portfolio__buttons {
+  @extend %list;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 8px;
+}
+
+.portfolio__button--primary {
+  @extend %button-primary;
+  @extend %button;
+  &:hover,
+  &:focus {
+    box-shadow: $button-portfolio-shadow;
+    @extend %button-secondary;
+  }
+}
+.portfolio__button--secondary {
+  @extend %button-secondary;
+  @extend %button;
+  &:hover,
+  &:focus {
+    box-shadow: $button-portfolio-shadow;
+    @extend %button-primary;
+  }
+}

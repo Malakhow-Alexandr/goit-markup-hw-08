@@ -1,0 +1,45 @@
+<<<<<<< HEAD
+.header {
+    border-bottom: 1px solid $outline-color;
+}
+.header__container {
+    @extend %container;
+}
+.header__nav {
+    align-items: center;
+}
+.header__logo {
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    color: $accent-text-color;
+}
+
+.header__logo-studio {
+    color: $primary-black-color;
+}
+=======
+.header {
+    border-bottom: 1px solid $outline-color;
+}
+.header__container {
+    @extend %container;
+    display:flex;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    color: $accent-text-color;
+}
+
+.header__logo-studio {
+    color: $primary-black-color;
+}
+>>>>>>> fb5653a2fba59a35c925db884d7bf2b81a2ffacf
