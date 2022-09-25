@@ -1,8 +1,5 @@
 .site-nav {
   @extend %list;
-  display: flex;
-  margin-left: 93px;
-  gap: 50px;
 }
 
 .site-nav__link {
