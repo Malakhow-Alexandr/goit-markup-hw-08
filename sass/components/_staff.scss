@@ -1,7 +1,11 @@
 .staff {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: $staff-bg-color;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .staff__container {
   @extend %container;
@@ -12,12 +16,11 @@
 }
 .staff-list {
   @extend %list;
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    gap:30px;
-    }
-    
+    gap: 30px;
+  }
 }
 .staff-list__item {
   max-width: 450px;
@@ -25,17 +28,17 @@
   border-radius: 0px 0px 4px 4px;
   background-color: $primary-white-color;
 
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     width: 354px;
-   }
-   @media screen and (min-width:1200px) {
-    width: 270px;
-   }
-   &:not(:last-child) {
-      @media screen and (max-width:767px){
-        margin-bottom: 30px;
   }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+  &:not(:last-child) {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 30px;
     }
+  }
 }
 .staff-meta-container {
   padding: 30px 32px;

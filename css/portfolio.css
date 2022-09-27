@@ -51,6 +51,7 @@ a {
 img {
   display: block;
   max-width: 100%;
+  max-height: auto;
 }
 
 .header {
@@ -436,6 +437,11 @@ img {
 @media screen and (min-width: 480px) {
   .footer-form__lable {
     left: 15px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  .footer-form__lable {
+    left: 50px;
   }
 }
 
