@@ -648,7 +648,7 @@ img {
 .footer-form__lable {
   position: absolute;
   top: 20%;
-  left: 16px;
+  left: 55px;
   transform: translateY(-50%);
   font-weight: 400;
   font-size: 16px;
@@ -670,6 +670,12 @@ img {
     top: 50%;
   }
 }
+@media screen and (min-width: 480px) {
+  .footer-form__lable {
+    left: 15px;
+  }
+}
+
 .footer-form__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -678,6 +684,11 @@ img {
   background-color: transparent;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: #ffffff;
+}
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .footer-form__input {
+    min-width: 450px;
+  }
 }
 @media screen and (max-width: 1199px) {
   .footer-form__input {

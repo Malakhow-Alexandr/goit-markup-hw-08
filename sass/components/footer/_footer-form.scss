@@ -21,7 +21,7 @@
 .footer-form__lable {
   position: absolute;
   top: 20%;
-  left: 16px;
+  left: 55px;
   transform: translateY(-50%);
   font-weight: 400;
   font-size: 16px;
@@ -35,7 +35,9 @@
   @media screen and (min-width:1200px){
     top: 50%;
     }
-  @media screen and (max-width:479){}
+  @media screen and (min-width:480px){
+   left: 15px; 
+  }
 }
 
 .footer-form__input {
@@ -48,7 +50,10 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: $primary-white-color;
   
- 
+ @media screen and (min-width:480px) and (max-width:1199px){
+  min-width: 450px;
+  
+ }
   @media screen and (max-width:1199px){
     margin-bottom: 20px;
   }
