@@ -20,7 +20,7 @@
     
 }
 .staff-list__item {
-  width: 450px;
+  max-width: 450px;
   box-shadow: $card-shadow;
   border-radius: 0px 0px 4px 4px;
   background-color: $primary-white-color;

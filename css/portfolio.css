@@ -433,11 +433,10 @@ img {
     top: 50%;
   }
 }
-
 .footer-form__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
-  width: 450px;
+  max-width: 450px;
   padding: 15px 16px;
   background-color: transparent;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
