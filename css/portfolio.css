@@ -183,10 +183,14 @@ img {
 }
 
 .portfolio__buttons {
-  display: flex;
-  justify-content: center;
   margin-bottom: 50px;
-  gap: 8px;
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
 }
 
 .portfolio__button--primary:hover, .portfolio__button--primary:focus {
