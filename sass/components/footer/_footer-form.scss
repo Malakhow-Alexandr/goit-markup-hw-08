@@ -53,6 +53,7 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: $primary-white-color;
   
+
  @media screen and (min-width:480px) and (max-width:1199px){
   min-width: 450px;
   
@@ -62,7 +63,7 @@
   }
 
   @media screen and (min-width:1200px){
-    width: 358px;
+    min-width: 358px;
     margin-right: 12px;
   }
 }
