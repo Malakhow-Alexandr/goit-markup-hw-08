@@ -1,6 +1,5 @@
 .burger-menu__nav {
   @extend %list;
-  margin-bottom: 302px;
 }
 .burger-menu__nav-item:not(:last-child) {
   margin-bottom: 32px;
@@ -28,6 +27,8 @@
 }
 .burger-menu__contacts {
   @extend %list;
+  margin-top: auto;
+  margin-bottom: 64px;
 }
 .burger-menu__contacts-item:not(:last-child) {
   margin-bottom: 32px;
@@ -57,7 +58,6 @@ color: $accent-text-color;
 }
 .burger-menu__socials {
     @extend %list;
-    margin-top: auto;
     display: flex;
 }
 .burger-menu__socials-item:not(:last-child) {

@@ -270,10 +270,6 @@ img {
   }
 }
 
-.burger-menu__nav {
-  margin-bottom: 302px;
-}
-
 .burger-menu__nav-item:not(:last-child) {
   margin-bottom: 32px;
 }
@@ -298,6 +294,11 @@ img {
 .burger-menu__nav-link--current:hover,
 .burger-menu__nav-link--current:focus {
   color: #212121;
+}
+
+.burger-menu__contacts {
+  margin-top: auto;
+  margin-bottom: 64px;
 }
 
 .burger-menu__contacts-item:not(:last-child) {
@@ -328,7 +329,6 @@ img {
 }
 
 .burger-menu__socials {
-  margin-top: auto;
   display: flex;
 }
 
