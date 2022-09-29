@@ -54,6 +54,10 @@ img {
   height: auto;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .header {
   border-bottom: 1px solid #eeeeee;
 }
