@@ -269,6 +269,12 @@ img {
     display: none;
   }
 }
+@media screen and (max-width: 479px) {
+  .menu-container {
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+}
 
 .burger-menu__nav-item:not(:last-child) {
   margin-bottom: 32px;
@@ -344,14 +350,27 @@ img {
 .burger-menu__socials-link {
   padding: 5px 10px;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 1.2222222222;
+  font-size: 12px;
+  line-height: 1.1666666667;
   letter-spacing: 0.02em;
   color: #2196f3;
   transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .burger-menu__socials-link:hover, .burger-menu__socials-link:focus {
   color: #757575;
+}
+@media screen and (min-width: 380px) {
+  .burger-menu__socials-link {
+    font-size: 14px;
+    line-height: 1.1666666667;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 480px) {
+  .burger-menu__socials-link {
+    font-size: 18px;
+    line-height: 1.2222222222;
+  }
 }
 
 .portfolio__button--secondary, .portfolio__button--primary {
