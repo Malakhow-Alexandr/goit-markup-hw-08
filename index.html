@@ -163,12 +163,15 @@
           <h2 class="staff__title">Наша команда</h2>
           <ul class="staff-list">
             <li class="staff-list__item">
-              <img
-                srcset="./images/staff/igor@1x.jpg 450w, ./images/staff/igor@2x.jpg 900w"
-                src="./images/staff/igor@1x.jpg"
-                alt="Ігор-Дем'яненко"
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 100vw"
-              />
+              <picture>
+                <!-- desc -->
+                <source media="(min-width: 1200px)" srcset="./images/staff/igor-desc@1x.jpg 1x, ./images/staff/igor-desc@2x.jpg 2x">
+                <!-- tab -->
+                <source media="(min-width:768px)" srcset="./images/staff/igor-tab@1x.jpg 1x, ./images/staff/igor-tab@2x.jpg 2x">
+                <!-- mob -->
+                <source media="(max-width:767px)" srcset="./images/staff/igor-mob@1x.jpg 1x, ./images/staff/igor-mob@2x.jpg 2x">
+                <img src="./images/staff/igor-mob@1x.jpg" alt="Ігор Дем'яненко">
+              </picture>
               <div class="staff-meta-container">
                 <h3 class="staff-meta-container__title">Ігор Дем'яненко</h3>
                 <p class="staff-meta-container__text">Product Designer</p>
@@ -218,12 +221,15 @@
               </div>
             </li>
             <li class="staff-list__item">
-              <img
-                srcset="./images/staff/olga@1x.jpg 450w, ./images/staff/olga@2x.jpg 900w"
-                src="./images/staff/olga@1x.jpg"
-                alt="Ольга-Рєпіна"
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 100vw"
-              />
+              <picture>
+                <!-- desc -->
+                <source media="(min-width: 1200px)" srcset="./images/staff/olga-desc@1x.jpg 1x, ./images/staff/olga-desc@2x.jpg 2x">
+                <!-- tab -->
+                <source media="(min-width:768px)" srcset="./images/staff/olga-tab@1x.jpg 1x, ./images/staff/olga-tab@2x.jpg 2x">
+                <!-- mob -->
+                <source media="(max-width:767px)" srcset="./images/staff/olga-mob@1x.jpg 1x, ./images/staff/olga-mob@2x.jpg 2x">
+                <img src="./images/staff/olga-mob@1x.jpg" alt="Ольга Рєпіна">
+              </picture>
               <div class="staff-meta-container">
                 <h3 class="staff-meta-container__title">Ольга Рєпіна</h3>
                 <p class="staff-meta-container__text">Frontend Developer</p>
@@ -273,12 +279,15 @@
               </div>
             </li>
             <li class="staff-list__item">
-              <img
-                srcset="./images/staff/mike@1x.jpg 450w, ./images/staff/mike@2x.jpg 900w"
-                src="./images/staff/mike@1x.jpg"
-                alt="Микола Тарасов"
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, 100vw"
-              />
+              <picture>
+                <!-- desc -->
+                <source media="(min-width: 1200px)" srcset="./images/staff/mike-desc@1x.jpg 1x, ./images/staff/mike-desc@2x.jpg 2x">
+                <!-- tab -->
+                <source media="(min-width:768px)" srcset="./images/staff/mike-tab@1x.jpg 1x, ./images/staff/mike-tab@2x.jpg 2x">
+                <!-- mob -->
+                <source media="(max-width:767px)" srcset="./images/staff/mike-mob@1x.jpg 1x, ./images/staff/mike-mob@2x.jpg 2x">
+                <img src="./images/staff/mike-mob@1x.jpg" alt="Микола Тарасов">
+              </picture>
               <div class="staff-meta-container">
                 <h3 class="staff-meta-container__title">Микола Тарасов</h3>
                 <p class="staff-meta-container__text">Marketing</p>
@@ -328,12 +337,15 @@
               </div>
             </li>
             <li class="staff-list__item">
-              <img
-                srcset="./images/staff/misha@1x.jpg 450w, ./images/staff/misha@2x.jpg 900w"
-                src="./images/staff/misha@1x.jpg"
-                alt="Михайло Єрмаков"
-                sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw"
-              />
+              <picture>
+                <!-- desc -->
+                <source media="(min-width: 1200px)" srcset="./images/staff/misha-desc@1x.jpg 1x, ./images/staff/misha-desc@2x.jpg 2x">
+                <!-- tab -->
+                <source media="(min-width:768px)" srcset="./images/staff/misha-tab@1x.jpg 1x, ./images/staff/misha-tab@2x.jpg 2x">
+                <!-- mob -->
+                <source media="(max-width:767px)" srcset="./images/staff/misha-mob@1x.jpg 1x, ./images/staff/misha-mob@2x.jpg 2x">
+                <img src="./images/staff/misha-mob@1x.jpg" alt="Михайло Єрмаков">
+              </picture>
               <div class="staff-meta-container">
                 <h3 class="staff-meta-container__title">Михайло Єрмаков</h3>
                 <p class="staff-meta-container__text">UI Designer</p>
