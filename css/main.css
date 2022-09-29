@@ -372,6 +372,11 @@ img {
   line-height: 1.1764705882;
   color: #2196f3;
 }
+@media screen and (max-width: 380px) {
+  .burger-menu__contacts-link--current {
+    font-size: 27px;
+  }
+}
 .burger-menu__contacts-link--current:hover, .burger-menu__contacts-link--current:focus {
   color: #757575;
 }
